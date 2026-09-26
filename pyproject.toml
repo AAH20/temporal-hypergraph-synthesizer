@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "temporal-hypergraph-synthesizer"
+version = "1.0.0"
+description = "Dual-Use Temporal Dynamic Subgraph Isomorphism Engine for Tactical Insurgent C2 Cell Detection and Aerospace Counterfeit Chip Laundering Tracing."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+authors = [
+    { name = "Ahmed Hassan", email = "ahmed.hassan.aah@gmail.com" }
+]
+keywords = [
+    "defense-tech",
+    "graph-algorithms",
+    "subgraph-isomorphism",
+    "temporal-graphs",
+    "hypergraphs",
+    "c4isr",
+    "signals-intelligence",
+    "counter-insurgency",
+    "supply-chain-security",
+    "counterfeit-detection",
+    "dual-use",
+    "sovereignty"
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering :: Mathematics",
+    "Topic :: Security"
+]
+
+[project.scripts]
+temporal-hypergraph-synthesizer = "cli:main"
